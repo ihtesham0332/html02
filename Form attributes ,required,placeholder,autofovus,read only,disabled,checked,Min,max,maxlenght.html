@@ -11,8 +11,9 @@
     <form>
         <fieldset>
             <legend> Form attributes ,required,placeholder, autofocus,read only,disabled,checked,Min,max,maxlenght</legend>
-            Name <input type="text" name="name" required="required" autofocus="autofocus" placeholder="Enter your name"><br><br> Email <input type="email" name="email"><br><br> Gender <input type="gender" name="gender" placeholder="Enter your gender"><br><br>            Color <input type="color" name="color" value="#FF0000"><br><br> hobbies <input type="checkbox" name="hobbies[]">Football
-            <input type="checkbox" name="hobbies[]">Cricket<br><br> range <input type="range" name="range"><br><br> Submit
+            Name <input type="text" name="name" maxlength="10" required="required" autofocus="autofocus" placeholder="Enter your name"><br><br> Email <input type="email" name="email"><br><br> age <input type="number" name="age" max="100" min="1" required="required"
+                placeholder="Enter your age"><br><br> Gender <input type="gender" name="gender" placeholder="Enter your gender"><br><br> Color <input type="color" name="color" value="#FF0000"><br><br> hobbies <input type="checkbox" name="hobbies[]">Football
+            <input type="checkbox" name="hobbies[]">Cricket<br><br> range <input type="range" min="0" max="10" name="range"><br><br> Submit
             <input type="submit" value="submit"><br><br> reset <input type="reset" value="reset">
         </fieldset>
     </form>
