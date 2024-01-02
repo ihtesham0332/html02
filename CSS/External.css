@@ -1,0 +1,70 @@
+.main {
+    width: 900;
+    height: 1400;
+    background-color: rgb(100, 212, 143);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: azure;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header {
+    width: 900;
+    height: 250;
+    background-color: rgb(237, 25, 212);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: azure;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.header:hover {
+    background-color: rgb(95, 22, 35);
+    font-size: x-large;
+    color: rgb(53, 36, 203);
+}
+
+.nave {
+    width: 900;
+    height: 600;
+    background-color: rgb(100, 212, 173);
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: azure;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.aside {
+    width: 900;
+    height: 800;
+    background-color: rgb(56, 111, 137);
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: azure;
+    text-align: center;
+    text-transform: lowercase;
+    text-decoration: none;
+}
+
+.footer {
+    width: 900;
+    height: 250;
+    background-color: rgb(75, 12, 117);
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    color: azure;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+}
