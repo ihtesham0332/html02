@@ -1,0 +1,114 @@
+.main {
+    width: 1899px;
+    height: 980px;
+    background-color: rgb(163, 227, 161);
+    font-size: 30px;
+    border: #d82929 solid 5px;
+}
+
+.header {
+    width: 150;
+    height: 150;
+    color: aliceblue;
+    background-color: rgb(69, 194, 58);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    float: left;
+    border: #91e531 solid 5px;
+}
+
+.Home {
+    width: 150;
+    height: 150;
+    color: aliceblue;
+    background-color: rgb(69, 194, 58);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    float: left;
+    border: #1adce7 solid 5px;
+}
+
+.Home:hover {
+    color: #050505;
+    background-color: azure;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.About {
+    width: 150;
+    height: 150;
+    color: aliceblue;
+    background-color: rgb(118, 50, 201);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    float: left;
+    border: #4029d8 solid 5px;
+}
+
+.About:hover {
+    color: #0b0a0a;
+    background-color: azure;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.Contect {
+    width: 150;
+    height: 150;
+    color: aliceblue;
+    background-color: rgb(189, 206, 33);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    float: left;
+    border: #e82399 solid 5px;
+}
+
+.Contect:hover {
+    color: #080606;
+    background-color: azure;
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.Gallery {
+    width: 150;
+    height: 150;
+    color: aliceblue;
+    background-color: rgb(194, 31, 203);
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    text-transform: uppercase;
+    float: left;
+    border: #546911 solid 5px;
+    text-shadow: 0px 0px 10px #811ae7;
+}
+
+.Gallery:hover {
+    color: #110e0e;
+    background-color: rgb(116, 49, 49);
+    text-decoration: underline;
+    font-size: 40px;
+}
+
+.image {
+    float: left;
+    /*rder: #0f0c0c solid 5px;*/
+    align-items: center;
+    margin: 70px;
+    box-shadow: 0px 0px 20px #1c2f30;
+}
+
+.Paragraph {
+    border: #070505 solid 5px;
+    margin-top: 45px 30px 30px 30px;
+    float: right;
+}
