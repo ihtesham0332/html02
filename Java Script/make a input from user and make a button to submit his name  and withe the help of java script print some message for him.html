@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Message print for user to input the name</title>
+</head>
+
+<body>
+    <div>
+        Name =<input type="text" id="Name"><br>
+        <button onclick="greed()"> Submit </button>
+    </div>
+    <div class="OUtput">
+
+    </div>
+    <script type="text/javascript">
+        function greed() {
+            var name = document.getElementById('Name').value;
+            var string = "Hellow"
+            document.getElementsByClassName('OUtput')[0].innerHTML = string + name
+        }
+    </script>
+</body>
+
+</html>
