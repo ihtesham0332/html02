@@ -12,14 +12,14 @@
         Name =<input type="text" id="Name"><br>
         <button onclick="greed()"> Submit </button>
     </div>
-    <div class="OUtput">
-
+    <div>
+        <h1 class="OUtput"></h1>
     </div>
     <script type="text/javascript">
         function greed() {
             var name = document.getElementById('Name').value;
-            var string = "Hellow"
-            document.getElementsByClassName('OUtput')[0].innerHTML = string + name
+
+            document.getElementsByClassName('OUtput')[0].innerHTML = "Hellow  " + name
         }
     </script>
 </body>

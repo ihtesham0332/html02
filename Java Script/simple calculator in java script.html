@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <style type="text/css">
+        .image {
+            background-image: url("/images/BingWallpaper.jpg");
+            width: 990;
+            height: 1900;
+            border: 10px solid pink;
+        }
+        
+        .main {
+            width: 30%;
+            height: 50%;
+            background-color: rgb(105, 231, 212);
+            margin: auto;
+            padding: 20px;
+            margin-top: 100px;
+            font-size: 30px;
+            border: 5px solid rgb(68, 119, 129);
+            box-sizing: border-box;
+            opacity: 85%;
+        }
+        
+        .main:hover {
+            background-color: rgb(180, 220, 255);
+            color: rgb(249, 13, 13);
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="image">
+        <div class="main">
+
+            <h1 style="color: rgb(247, 150, 15); font-weight: bold; ">Calculator </h1>
+            <div>
+                Enter Number 1 <input type="text" class="box1" step="any" />
+            </div><br>Operation
+            <select id="oper">
+          
+        <option value="*"> *</option>
+        <option value="-">-</option>
+        <option value="/">/</option>
+        <option value="+">+</option>
+       </select><br>
+            <br>
+            <div>
+                Enter Number 2 <input type="text" class="box2">
+            </div>
+            <br>
+            <div>
+                submit
+                <button onclick="cal()">Calculate</button>
+            </div>
+            <div>
+                <h1 id="res"></h1>
+            </div>
+
+            <script>
+                function cal() {
+                    var a = document.querySelector(".box1").value;
+                    var b = document.querySelector(".box2").value;
+                    var c = document.querySelector("#oper").value;
+                    var d = eval(a + c + b);
+
+                    document.querySelector("#res").innerHTML = d
+
+                }
+            </script>
+        </div>
+    </div>
+</body>
+
+</html>
