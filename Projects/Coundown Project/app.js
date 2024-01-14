@@ -1,4 +1,4 @@
-const End_date = "Date: 13 June 2024 04:00:AM";
+const End_date = prompt("Enter Your last Date ", "")
 document.getElementById("Endtime").innerHTML = End_date
 const inputs = document.querySelectorAll("input");
 

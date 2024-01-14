@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Browser</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            font-family: Arial, sans-serif;
+        }
+        
+        #browser {
+            width: 100%;
+            height: 100vh;
+            border: none;
+        }
+        
+        #address-bar {
+            background-color: #f1f1f1;
+            padding: 10px;
+            display: flex;
+        }
+        
+        #address-input {
+            flex: 1;
+            padding: 5px;
+        }
+        
+        #go-button {
+            padding: 5px;
+            cursor: pointer;
+        }
+        
+        #content {
+            width: 100%;
+            height: calc(100vh - 30px);
+            border: none;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="address-bar">
+        <input type="text" id="address-input" placeholder="Enter URL">
+        <button id="go-button" onclick="navigate()">Go</button>
+    </div>
+    <iframe id="browser" src="https://www.saparat.com"></iframe>
+
+    <script>
+        function navigate() {
+            var addressInput = document.getElementById('address-input');
+            var browser = document.getElementById('browser');
+            var url = addressInput.value;
+
+            if (url.trim() !== '') {
+                browser.src = 'https://' + url;
+            }
+        }
+    </script>
+</body>
+
+</html>
